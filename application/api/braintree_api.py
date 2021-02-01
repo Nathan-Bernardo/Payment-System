@@ -3,9 +3,9 @@ import braintree
 GATEWAY = braintree.BraintreeGateway(
     braintree.Configuration(
         braintree.Environment.Sandbox,
-        merchant_id="xfq6by3vkhvbxjgg",
-        public_key="gry63cfkp2hjj4fw",
-        private_key="3fca027417ef4b7183f68dd222e35392"
+        merchant_id=,
+        public_key=,
+        private_key=
     )
 )
 PLAN_ID = "p35m"
